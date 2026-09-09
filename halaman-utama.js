@@ -10,10 +10,10 @@ textData.forEach(item => {
 
 // Data link
 const linkData = [
-    { id: "link1", href: "/home", text: "Home" },
-    { id: "link2", href: "/games-tren", text: "Game Tren" },
-    { id: "link3", href: "/berita", text: "Berita" },
-    { id: "link4", href: "/sejarah", text: "Sejarah" },
+    { id: "link1", href: "https://robloxindonesia.github.io/home", text: "Home" },
+    { id: "link2", href: "https://robloxindonesia.github.io/games-tren", text: "Game Tren" },
+    { id: "link3", href: "https://robloxindonesia.github.io/berita", text: "Berita" },
+    { id: "link4", href: "https://robloxindonesia.github.io/sejarah", text: "Sejarah" },
 
     { id: "link5", href: "#", text: "Tentang Kami" },
     { id: "link6", href: "#", text: "Bantuan" },
@@ -51,7 +51,7 @@ function closeMenu(){
 //profil robloxindonesia
 // Link + Avatar
 const link = document.createElement("a");
-link.href = "/users/profil.html?user=robiox_lndo";
+link.href = "https://robloxindonesia.github.io/users/profil.html?user=robiox_lndo";
 
 const profiles = document.createElement("img");
 profiles.src = "https://RobloxIndonesia.github.io/img/30DAY-AvatarHeadshot-ED6E504DCD0989309333C3F87B84DC2E.png";
@@ -68,7 +68,7 @@ const back = document.getElementById("back");
 
 
 // Logo 
-const urlLogo = "/img/logo.png";
+const urlLogo = "https://robloxindonesia.github.io/img/logo.png";
 
 const img1 = document.createElement("img");
 img1.src = urlLogo;
